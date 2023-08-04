@@ -1,0 +1,242 @@
+.fbimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+}
+
+.boxshadow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background:white;
+  border-radius: 7px;
+  width: 428px;
+  height: 560px;
+  padding:0px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.h1{
+  text-align:center;
+}
+
+body{
+  background:rgb(240,242,245);
+}
+
+.textforsignup{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center; 
+}
+
+.text1{
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.text2{
+  color: #606770;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.recbox{
+  border-top:1px solid #dadde1;
+  padding: 16px;
+}
+
+.firstnametext{
+  width: 185px;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  border : 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.lastnametext{
+  width: 185px;
+  height: 35px;
+  margin-bottom: 10px;
+  border : 1px solid #dadde1;
+  border-radius: 5px;
+}
+.firstnametext::placeholder{
+  font-size: 15px;
+  font-weight:thin;
+  padding: 11px;
+  color:#8D949E;
+}
+.lastnametext::placeholder{
+  font-size: 15px;
+  font-weight:thin;
+  padding: 11px;
+  color:#8D949E;
+}
+.mobile-email{
+  width: 388px;
+  height: 35px;
+  margin-bottom: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.mobile-email::placeholder{
+  font-size: 15px;
+  font-weight:thin;
+  padding: 11px;
+  color:#8D949E;
+}
+.newpassword{
+  width: 388px;
+  height: 35px;
+  margin-bottom: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.newpassword::placeholder{
+  font-size: 15px;
+  font-weight:thin;
+  padding: 11px;
+  color:#8D949E;
+}
+.birthday-wrapper{
+  margin-bottom: 10px;
+}
+.birthdaytext{
+  text-align:left;
+  font-size: smaller;
+  color:#606770;
+  margin-bottom: 4px;
+}
+
+.DateOfBirth{
+ display: inline-flex;
+ color: #1c1e21;
+ width: 399px;
+ height: 36px;
+}
+.Month{
+  width: 31%;
+  margin-right: 12px;
+  padding-right: 20px;
+  font-size: 15px;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+}
+.Day{
+  width: 31%;
+  margin-right: 12px;
+  padding-right: 20px;
+  font-size: 15px;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+}
+.Year{
+  width: 31%;
+  padding-right: 20px;
+  font-size: 15px;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+}
+.gendertext{
+    text-align:left;
+    font-size: smaller;
+    color:#606770;
+    margin-bottom: 4px;
+}
+.Sex{
+  display: inline-flex;
+ color: #1c1e21;
+ width: 399px;
+ height: 36px;
+}
+.Sex-F{
+  font-size: 15px;
+  width: 41%;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+  margin-right: 12px;
+  line-height: 35px;
+  text-align: left;
+  padding: 0px 28px 0px 10px;
+}
+.Sex-M{
+  font-size: 15px;
+  width: 35%;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+  margin-right: 12px;
+  line-height: 35px;
+  text-align: left;
+  padding: 0px 28px 0px 10px;
+}
+.Sex-C{
+  font-size: 15px;
+  width: 40%;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+  line-height: 35px;
+  text-align: left;
+  padding: 0px 28px 0px 10px;
+}
+p{
+  font-size: 11px;
+  color:#777;
+  text-align: left;
+  line-height: 1.34;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.learnmore-link{
+  color:#385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+.AlreadyHaveAnAccount{
+  color: #1877f2;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Tearmstext{
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+.privacypolicytext{
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Cookiespolicytext{
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button{
+  margin-bottom: 11px;
+  margin-top: 11px;
+  background-color: #00A400;
+  height: 35px;
+  width: 190px;
+  border: #00A400;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  color:whitesmoke
+}
+.submitbutton{
+  width: 400px;
+  height: 56px;
+}
+.Alreadyhaveaccount-wrapper{
+  width: 400px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.AlreadyHaveAnAccount{
+  text-align: center;
+}
